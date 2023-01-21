@@ -1,5 +1,5 @@
 ### 21.01.22
- * [Giving good feedback: consider the ratio](https://charity.wtf/2022/08/15/giving-good-feedback-consider-the-ratio/)
+* [Giving good feedback: consider the ratio](https://charity.wtf/2022/08/15/giving-good-feedback-consider-the-ratio/)
 ✅
   * Nothing particularly new there, but lays out some good practices when giving feedback. It's interesting that it focuses on ensuring you also make the positive feedback known, in addition to the negative one. To some extent this goes contrary to what I've seen in my experience - people generally seem reluctant to share the constructive feedback, not the other way around. Perhaps it's just a difference of work cultures I've encountered? I am impressed overall by Charity, and Honeycomb seems like a great company - is there a connection to be made there? 
   * #soft-skills
