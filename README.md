@@ -1,7 +1,7 @@
 ### 5 Feb 20223
 * [What Engineering Managers Should Do (and Why We Don't)](https://youtu.be/Q_bJVokYLRI) by Lena Reinhard
   * Overall quite a positive talk. Discusses mostly common sense patterns and practices for people management, generally nothing I haven't seen before. 
-  * Can be summarised by Lena's closing statement: "_Think back to the whooping cranes. Make people the centre and focus of your work, and build on that, to create an environment in which they can thrive. Lead with humbleness, empathy and lits of curiosity. Above all, ask yourself - "What kind of leader do I want to be?"
+  * Can be summarised by Lena's closing statement: "_Think back to the whooping cranes. Make people the centre and focus of your work, and build on that, to create an environment in which they can thrive. Lead with humbleness, empathy and lits of curiosity. Above all, ask yourself - "What kind of leader do I want to be?_"
   * The comparison to the preservation efforts of the whooping cranes was quite good and helps put things into perspective. It's a good mental model (throw back to Tanya Reilly's The Staff Engineer's Path). The point was that while scientists are trying to help preserve the whooping cranes, they spend very little time actually studying the birds. Instead, they study its environment, the numbers and behaviours of the animals it eats and relies on, etc. 
 
 ### 21.01.22
