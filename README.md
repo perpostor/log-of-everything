@@ -1,4 +1,20 @@
-### 5 Feb 20223
+### 5 Mar 2023
+* [Monolith Decomposition Patterns • Sam Newman • GOTO 2019](https://www.youtube.com/watch?v=9I9GdSQ1bbM) ✅
+  * (notes below generated with the help of ChatGPT)
+  * If more of us had runtimes that allowed for modular deployment in the same runtime, we would be going back to modular monoliths. This is because modular monoliths can offer some of the benefits of microservices without the added complexity of a distributed system.
+  * It’s often decomposing the database that’s the hardest aspect. The difficulty in decomposing the database often stems from the fact that the database schema may be tightly coupled to the monolithic application's code.
+  * The monolith isn’t the enemy. What instead happens is you’re trying to achieve something as a business, but your current architecture doesn’t allow for that. So you need to change your architecture enough to be able to do it (handle scale, allow concurrent dev work, etc.).
+  * Adopting microservices is not like flicking a switch, it’s more like turning a dial. As you turn the dial, you get more opportunity to take advantage of your new services, but also - to experience the horrifying pain of distributed systems! The process of adopting microservices is gradual and involves turning a dial rather than flicking a switch. As more microservices are added, the system becomes more complex and distributed, leading to new challenges such as monitoring, debugging, and resilience.
+  * Start small! The speaker advises starting small when adopting microservices and gradually building up to a more distributed architecture over time.
+Microservices are not the goal. You don’t win by using microservices! The goal of adopting microservices is not to use microservices for their own sake, but to achieve business goals such as faster time-to-market, greater scalability, and more flexible development.
+  * [Strangler Fig pattern](https://martinfowler.com/bliki/StranglerFigApplication.html): This pattern involves gradually replacing parts of a monolithic application with microservices by creating new services around specific areas of functionality and routing traffic to them, while leaving the existing monolith in place. Over time, the monolith is "strangled" as more functionality is moved to microservices until eventually the monolith is no longer needed.
+  * [Branch by Abstraction pattern](https://www.martinfowler.com/bliki/BranchByAbstraction.html): This pattern involves creating a new abstraction layer between the monolithic application and the microservices, allowing the two to coexist and communicate with each other until the monolith can be fully decommissioned.
+    * Parallel Run pattern: This pattern involves running both the monolithic application and the new microservices in parallel and gradually shifting traffic to the microservices over time. This allows for a smooth transition to a microservices architecture without disrupting existing functionality.
+Accessing data in a microservices architecture can be challenging due to the need to avoid coupling between services. The speaker recommends moving data to the new service, exposing data in the monolith via an API, or using data replication techniques to avoid direct access between services.
+  * Newman also mentions the Scientist4J library, which helps with experimentation when making changes to a system.
+  * Joins across tables can be difficult to handle when splitting data across microservices. The speaker suggests using denormalization, event sourcing, or a distributed transaction protocol to manage consistency.
+
+### 5 Feb 2023
 * [What Engineering Managers Should Do (and Why We Don't)](https://youtu.be/Q_bJVokYLRI) by Lena Reinhard
   * Overall quite a positive talk. Discusses mostly common sense patterns and practices for people management, generally nothing I haven't seen before. 
   * Can be summarised by Lena's closing statement: "_Think back to the whooping cranes. Make people the centre and focus of your work, and build on that, to create an environment in which they can thrive. Lead with humbleness, empathy and lits of curiosity. Above all, ask yourself - "What kind of leader do I want to be?_"
