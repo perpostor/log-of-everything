@@ -1,3 +1,28 @@
+### 13 Mar 2023
+* [Thinking Asynchronously: App Integration Patterns for Microservices • Rebekah Kulidzan](https://www.youtube.com/watch?v=_ugRNuE9xmA) ✅
+  * (notes below generated with the help of ChatGPT)
+  * [Enterprise integration patterns (EIP)](https://uk.bookshop.org/p/books/enterprise-integration-patterns-designing-building-and-deploying-messaging-solutions-gregor-hohpe/864128?ean=9780321200686)
+  * If a response is not needed, asynchronous execution is recommended.
+  * Enterprise integration patterns
+    * Message exchange
+      * One way - Integration pattern
+      * Asynchronous request response - conversation pattern
+    * Message channels
+      * Point to point (queue) - SQS
+      * Publish-subscribe (topic/fanout) - SNS
+      * Dead letter queue (DLQ)
+        * Transient failure
+        * Poison pill
+      * Asynchronous point-to-point model: router vs bus
+        * Bus in AWS is EventBridge
+  * Event-driven architecture
+      * Directed commands vs observable events
+      * Choreograph events between domains using subscriptions
+        * Publishers of events cannot have an expectation of how subscribers will respond
+        * If expectations exist, you’re adding tighter coupling and extra complexity
+        * Tool example - Event Bridge
+      * Orchestration - orchestrate a business process within a domain, resulting in a published event. Tool example - AWS Step Functions.
+
 ### 5 Mar 2023
 * [Monolith Decomposition Patterns • Sam Newman • GOTO 2019](https://www.youtube.com/watch?v=9I9GdSQ1bbM) ✅
   * (notes below generated with the help of ChatGPT)
