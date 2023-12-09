@@ -1,3 +1,7 @@
+### 9 Dec 2023
+* In GitHub Codespaces, `hugo` is installed by default, so no need to install it.
+* When you run the Hugo server, Codespaces should be clever enough to tell you to port-forward or that the port is already available, but there are [instructions](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace) on how to do it yourself.
+
 ### 13 Mar 2023
 * [Thinking Asynchronously: App Integration Patterns for Microservices • Rebekah Kulidzan](https://www.youtube.com/watch?v=_ugRNuE9xmA) ✅
   * (notes below generated with the help of ChatGPT)
