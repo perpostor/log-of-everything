@@ -3,7 +3,8 @@
   * I expected this to have a lot of AWS shilling, but there was none of that - it was a very widely-applicable talk!
   * Overall - a really good talk that covered a lot of the pitfalls and organisational disfunctions when it comes to EDAs.
   * I liked the openness about the added complexity of EDAs, and also the emphasis that complexity can grow over time. So it's almost a paradox - we might choose an event-driven architecture to help us evolve and be agile over time, but if we don't manage the complexity, we achieve the opposite!
-  * The analogy of the benefits of EDA being like an iceberg, and the complexity being the sea around it that hides the benefits was pretty good. 
+  * The analogy of the benefits of EDA being like an iceberg, and the complexity being the sea around it that hides the benefits was pretty good.
+  * Shout out to Postel's Law - "Be conservative in what you do, be liberal in what you accept from others". This aligns nicely with the deep/shallow design thinking of John Ousterhout. 
   * He mentioned that there is still coupling between components in this architecture, even if it isn't direct - which is true and can often be forgotten!
   * The complexity really comes from growth - the more services, events, and communication channels you have, the harder it is to manage and evolve them. 
   * We manage complexity in EDA by **introducing guardrails**, namely:
