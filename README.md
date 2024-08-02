@@ -1,5 +1,5 @@
 ### 2 Aug 2024
-* [Complexity is the Gotcha of ...](https://www.youtube.com/watch?v=VLUvfIm9wnQ) ✅
+* [Complexity is the Gotcha of Event-driven Architecture • David Boyne • GOTO 2024](https://www.youtube.com/watch?v=VLUvfIm9wnQ) ✅
   * I expected this to have a lot of AWS shilling, but there was none of that - it was a very widely-applicable talk!
   * Overall - a really good talk that covered a lot of the pitfalls and organisational disfunctions when it comes to EDAs.
   * I liked the openness about the added complexity of EDAs, and also the emphasis that complexity can grow over time. So it's almost a paradox - we might choose an event-driven architecture to help us evolve and be agile over time, but if we don't manage the complexity, we achieve the opposite!
@@ -16,9 +16,10 @@
   * The biggest gotcha - the idea that producers shouldn't know about consumers.
     * This was interesting - in general, I agree with the principle, but I see his point that if you take this to heart and have no way of tracking who uses which events and how, evolving your architeture becomes difficult and error-prone.
     * To avoid this pitfall, he suggests some tooling to help with the documentation aspects of EDA:
-      * [cloudevents]()
-      * [AsyncAPI]()
-      * [EventCatalog.dev]()
+      * [cloudevents](https://cloudevents.io/) - A specification for describing event data in a common way.
+      * [AsyncAPI](https://www.asyncapi.com/en) - Open-Source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs.
+        * Like OpenAPI, but for events. 
+      * [EventCatalog.dev](https://www.eventcatalog.dev/) - Keeping track of consumers, producers, domains, and messages can be challenging. EventCatalog simplifies this process with an open source documentation tool.
 
 ### 9 Dec 2023
 * In GitHub Codespaces, `hugo` is installed by default, so no need to install it.
